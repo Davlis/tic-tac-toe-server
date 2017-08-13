@@ -1,0 +1,22 @@
+{
+  "name": "tic-tac-toe-p2p",
+  "version": "1.0.0",
+  "description": "Simple implementation of tic-tac-toe server based on socket.io",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tic-tac-toe",
+    "tic",
+    "tac",
+    "toe",
+    "socket.io",
+    "socket",
+    "node",
+    "npm",
+    "react"
+  ],
+  "author": "Dawid Liszka",
+  "license": "MIT"
+}
