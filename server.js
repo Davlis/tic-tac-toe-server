@@ -8,16 +8,9 @@ var io = require("socket.io")(http);
 var port = env.PORT || 3000;
 
 io.on('connection', (socket) => {
-  console.log('User connected');
-
-  socket.on('move', (player, cordinates) => {
-    console.log(player, cordinates);
+  socket.on('move', (state) => {
+    io.emit('state', state);
   });
-
-  socket.on('disconnect', () => {
-    console.log('User disconnected');
-  });
-
 });
 
 io.listen(port);
