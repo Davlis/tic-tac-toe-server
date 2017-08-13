@@ -18,5 +18,14 @@
     "react"
   ],
   "author": "Dawid Liszka",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.4",
+    "http": "0.0.0",
+    "socket.io": "^2.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Davlis/tic-tac-toe-server"
+  },
 }
